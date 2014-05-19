@@ -1,0 +1,12 @@
+@mixin box-sizing( $input ){
+	-webkit-box-sizing : $input;
+	 -opera-box-sizing : $input;
+	   -moz-box-sizing : $input;
+	    -ms-box-sizing : $input;
+    	    box-sizing : $input;
+};
+
+@mixin opacity( $input ){
+	opacity 	: 	$input;
+	 filter 	: 	alpha( opacity = $input * 100 );
+};

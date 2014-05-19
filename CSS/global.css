@@ -1,0 +1,97 @@
+.c_list {
+  width: 100%; }
+  .c_list li.c_row {
+    list-style: none; }
+    .c_list li.c_row div.c_cell {
+      display: inline-block;
+      overflow: hidden; }
+  .c_list.c_list_loading {
+    cursor: wait;
+    opacity: 0.5;
+    filter: alpha(opacity=50); }
+
+.c_list_page {
+  width: 100%;
+  text-align: center;
+  padding-top: 10px; }
+  .c_list_page a.btn {
+    margin: 0px 3px; }
+    .c_list_page a.btn.disabled {
+      opacity: 0.65;
+      filter: alpha(opacity=65); }
+  .c_list_page .c_list_input {
+    width: 35px;
+    height: 28px;
+    text-align: center;
+    line-height: 25px;
+    border: 1px solid #aaaaaa !important;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    margin-left: 25px; }
+  .c_list_page.primary {
+    text-align: right; }
+    .c_list_page.primary a.btn {
+      color: #fff;
+      background: #405e8f; }
+      .c_list_page.primary a.btn:hover {
+        background: #5a85d5; }
+      .c_list_page.primary a.btn.disabled {
+        background: #405e8f; }
+      .c_list_page.primary a.btn.active {
+        background: #5a85d5; }
+  .c_list_page.info {
+    text-align: right; }
+    .c_list_page.info a.btn {
+      color: #fff;
+      background: #39b3d7; }
+      .c_list_page.info a.btn:hover {
+        background: #5bc0de; }
+      .c_list_page.info a.btn.disabled {
+        background: #46b8da; }
+      .c_list_page.info a.btn.active {
+        background: #5bc0de; }
+  .c_list_page.success {
+    text-align: right; }
+    .c_list_page.success a.btn {
+      color: #fff;
+      background: #398439; }
+      .c_list_page.success a.btn:hover {
+        background: #4cae4c; }
+      .c_list_page.success a.btn.disabled {
+        background: #398439; }
+      .c_list_page.success a.btn.active {
+        background: #4cae4c; }
+  .c_list_page.warn {
+    text-align: right; }
+    .c_list_page.warn a.btn {
+      color: #fff;
+      background: #fea208; }
+      .c_list_page.warn a.btn:hover {
+        background: #fdb43b; }
+      .c_list_page.warn a.btn.disabled {
+        background: #fea208; }
+      .c_list_page.warn a.btn.active {
+        background: #fdb43b; }
+  .c_list_page.error {
+    text-align: right; }
+    .c_list_page.error a.btn {
+      color: #fff;
+      background: #d43f3a; }
+      .c_list_page.error a.btn:hover {
+        background: #d9534f; }
+      .c_list_page.error a.btn.disabled {
+        background: #d43f3a; }
+      .c_list_page.error a.btn.active {
+        background: #d9534f; }
+  .c_list_page.inverse {
+    text-align: right; }
+    .c_list_page.inverse a.btn {
+      color: #fff;
+      background: #222; }
+      .c_list_page.inverse a.btn:hover {
+        background: #444; }
+      .c_list_page.inverse a.btn.disabled {
+        background: #222; }
+      .c_list_page.inverse a.btn.active {
+        background: #444; }
